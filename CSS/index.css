@@ -1,0 +1,62 @@
+h1{
+  color:#262730;
+  background-color: #C2DFE3;
+  border-style: outset;
+}
+#titel1{
+  color:#262730;
+  background-color: #C2DFE3;
+  border-style: outset;
+}
+body{
+  background-color:#E9F5F7;
+  margin: 50px;
+}
+#menu a:hover{
+  color: #E9F9F9;
+}
+header{
+  text-align: center;
+}
+#menu{
+  padding: 5px;
+}
+footer{
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  border:outset: 3px;
+  border-style: outset;
+  background-color: #C2DFE3;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: : 2px;
+}
+ul li {
+  background-color: #C3DFF3;
+  padding: 10px;
+  margin-left: 1%;
+  margin-right: 1%;
+  border: outset 3px white;
+  border-radius: 5px;
+  display: inline-block;
+  border-width: 3px 2px;
+}
+ul li a {
+  color: #183A37;
+  text-decoration: none;
+}
+iframe{
+  width: 50%;
+  height: 800px;
+  float: left;
+}
+#opsomming_badges{
+  float: right;
+}
+#titel_pagina_badges{
+  position:
+  fixed;
+  left: 100%;
+}
