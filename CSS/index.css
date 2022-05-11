@@ -1,25 +1,38 @@
 h1{
-  color:#262730;
+  color: #606466;
   background-color: #C2DFE3;
   border-style: outset;
+  border-radius: 2px;
+  margin-left: 1%;
+  margin-right: 1%;
 }
 #titel1{
-  color:#262730;
+  color: #606466;
   background-color: #C2DFE3;
   border-style: outset;
+  border-radius: 2px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 body{
   background-color:#E9F5F7;
   margin: 50px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #606466;
 }
 #menu a:hover{
-  color: #E9F9F9;
+  color: #606466;
+}
+p{
+  margin-right: 25%;
+  margin-left: 1%
 }
 header{
   text-align: center;
 }
 #menu{
-  padding: 5px;
+  padding-left: 5px;
+  border-color: #C2DFE3;
 }
 footer{
   text-align: center;
@@ -32,6 +45,7 @@ footer{
   padding-left: 10%;
   padding-right: 10%;
   border-radius: : 2px;
+  z-index: 3;
 }
 ul li {
   background-color: #C3DFF3;
@@ -44,19 +58,61 @@ ul li {
   border-width: 3px 2px;
 }
 ul li a {
-  color: #183A37;
+  color: #606466;
   text-decoration: none;
 }
-iframe{
+#foto_home{
+  position: fixed;
+  top: 30%;
+  left: 75%;
+  float: right;
+  z-index: 1;
+  display: block;
+}
+#tekst_bij_foto{
+  float: right;
+  position: fixed;
+  top: 60%;
+  left: 76%;
+  z-index: 2;
+  width: 20%;
+}
+#iframe1{
   width: 50%;
   height: 800px;
   float: left;
+}
+#iframe2{
+  float: left;
+}
+#linkje_naar_python{
+  margin-left: 5%;
+  border: outset 3px white;
+  background-color: #C3DFF3;
+  padding: 1%;
+  border-radius: 5px;
+  position: fixed;
+  top: 36%;
+  left: 50%;
 }
 #opsomming_badges{
   float: right;
 }
 #titel_pagina_badges{
-  position:
-  fixed;
+  position: fixed;
   left: 100%;
+}
+#tekst_homepagina{
+  border-style: dotted 3px;
+  border-color: gray;
+  border-radius: 3px;
+}
+#over_mij{
+  padding: 30px;
+  background-color: rgba(233,245,247,0.5);
+  margin-right: 40%;
+  float: right;
+}
+hr{
+  border-width: 3px;
 }
