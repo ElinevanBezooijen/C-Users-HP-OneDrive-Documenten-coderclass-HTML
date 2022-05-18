@@ -25,12 +25,12 @@ body{
 }
 p{
   margin-right: 25%;
-  margin-left: 1%
+  margin-left: 1%;
 }
 header{
   text-align: center;
 }
-#menu{
+nav ul{
   padding-left: 5px;
   border-color: #C2DFE3;
 }
@@ -38,7 +38,7 @@ footer{
   text-align: center;
   position: fixed;
   bottom: 0;
-  left: 50%;
+  left: 65%;
   border:outset: 3px;
   border-style: outset;
   background-color: #C2DFE3;
@@ -46,9 +46,9 @@ footer{
   padding-right: 10%;
   border-radius: : 2px;
 }
-ul li {
+nav ul li {
   background-color: #C3DFF3;
-  padding: 10px;
+  padding: 1%;
   margin-left: 1%;
   margin-right: 1%;
   border: outset 3px white;
@@ -60,11 +60,15 @@ ul li a {
   color: #606466;
   text-decoration: none;
 }
+#opsomming_badges{
+  position: absolute;
+  top: 35%;
+  left: 55%;
+}
 #foto_home{
   position: fixed;
   top: 30%;
-  left: 75%;
-  float: right;
+  left: 73%;
   z-index: 1;
   display: block;
 }
@@ -72,13 +76,14 @@ ul li a {
   float: right;
   position: fixed;
   top: 60%;
-  left: 76%;
+  left: 74%;
   z-index: 2;
   width: 20%;
+  height: auto;
 }
 #iframe1{
   width: 50%;
-  height: 800px;
+  height: 466px;
   float: left;
 }
 #iframe2{
@@ -86,16 +91,14 @@ ul li a {
 }
 #linkje_naar_python{
   margin-left: 5%;
-  border: outset 3px white;
-  background-color: #C3DFF3;
-  padding: 1%;
-  border-radius: 5px;
   position: fixed;
-  top: 36%;
+  top: 37%;
   left: 50%;
 }
-#opsomming_badges{
-  float: right;
+#tekst_bij_linkje{
+  position: fixed;
+  top: 78%;
+  left: 55%;
 }
 #titel_pagina_badges{
   position: fixed;
@@ -107,7 +110,9 @@ ul li a {
   border-radius: 3px;
 }
 #over_mij{
-  padding: 30px;
+  padding-left: auto;
+  padding-top: auto;
+  padding-right: 30px;
   background-color: rgba(233,245,247,0.5);
   margin-right: 40%;
   float: right;
